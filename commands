@@ -1,0 +1,36 @@
+    1  uname -r
+    2  wget https://kernel.ubuntu.com/mainline/v6.13.2/amd64/linux-headers-6.13.2-061302-generic_6.13.2-061302.202502081010_amd64.deb
+    3  wget https://kernel.ubuntu.com/mainline/v6.13.8/amd64/linux-headers-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb
+    4  wget https://kernel.ubuntu.com/mainline/v6.13.8/amd64/linux-headers-6.13.8-061308_6.13.8-061308.202503222044_all.deb
+    5  amd64/linux-image-unsigned-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb
+    6  wget amd64/linux-image-unsigned-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb
+    7  wget https://kernel.ubuntu.com/mainline/v6.13.8/amd64/linux-image-unsigned-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb
+    8  wget https://kernel.ubuntu.com/mainline/v6.13.8/amd64/linux-modules-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb
+    9  vim commands.txt
+   10  sudo dpkg -i *.deb
+   11  ls
+   12  rm linux-modules-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb.1 
+   13  ls
+   14  sudo dpkg -i *.deb
+   15  rm rf *
+   16  ls
+   17  rm ls
+   18  ls
+   19  wget https://kernel.ubuntu.com/mainline/v6.13.8/amd64/linux-headers-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb
+   20  wget https://kernel.ubuntu.com/mainline/v6.13.8/amd64/linux-headers-6.13.8-061308_6.13.8-061308.202503222044_all.deb
+   21  wget https://kernel.ubuntu.com/mainline/v6.13.8/amd64/linux-image-unsigned-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb
+   22  https://kernel.ubuntu.com/mainline/v6.13.8/amd64/linux-modules-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb
+   23  wget https://kernel.ubuntu.com/mainline/v6.13.8/amd64/linux-modules-6.13.8-061308-generic_6.13.8-061308.202503222044_amd64.deb
+   24  sudo dpkg -i *.deb
+   25  gcc
+   26  ls -al /boot
+   27  sudo update-grub
+   28  sudo grub-set-default 0
+   29  uname -r
+   30  sudo reboot
+   31  uname -r
+   32  gitst
+   33  git st
+   34  exit
+   35  history
+
