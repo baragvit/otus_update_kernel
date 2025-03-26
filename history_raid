@@ -1,0 +1,67 @@
+root@vagrant:/home/vagrant# history
+    1  sudo lshow -short | grep disk
+    2  sudo lshw -short | grep disk
+    3  sudo fdisk -l
+    4  mdadm --zero-superblock --force /dev/sd*
+    5  mdadm --create --verbose /dev/md127 -l 1 n 2 /dev/sd{b,c}
+    6  mdadm --create --verbose /dev/md127 -l 1 -n 2 /dev/sd{b,c}
+    7  cat /proc/mdstat 
+    8  mdadm -D /dev/md127 
+    9  mkfs.ext4 /dev/md127 
+   10  mkdir /mnt/01
+   11  sudo mount /dev/md127 /mnt/01
+   12  sudo fdisk -l
+   13  ll /tmp/01
+   14  sudo mount /dev/md127 /mnt/01
+   15  systemctl daemon-reload
+   16  ll /tmp/01
+   17  sudo mount /dev/md127 /mnt/01
+   18  ls /mnt/01
+   19  cp -r /var/log/*log* /tmp/01
+   20  cp -r /var/log/*log* /tmp/01/
+   21  cp -r /var/log/*log* /mnt/01
+   22  ll /mnt/01
+   23  mdadm -D /dev/md127 
+   24  mdadm --fail /dev/md127 /dev/sdb
+   25  mdadm -D /dev/md127 
+   26  mdadm --remove /dev/md127 /dev/sdb
+   27  mdadm -D /dev/md127 
+   28  mdadm --add /dev/md127 /dev/sdd
+   29  mdadm -D /dev/md127 
+   30  ls
+   31  mdadm -D /dev/md127 
+   32  ls /mnt/01
+   33  ls -la /mnt/01
+   34  which pgt
+   35  which gpt
+   36  fdisk 
+   37  fdisk  -l
+   38  lsblk 
+   39  gdisk -l /dev/sde
+   40  gdisk /dev/sde
+   41  lsblk 
+   42  mkfs.ext4 /dev/sde{1,2,3,4,5}
+   43  mkfs.ext4 /dev/sde1
+   44  mkfs.ext4 /dev/sde2
+   45  mkfs.ext4 /dev/sde3
+   46  mkfs.ext4 /dev/sde4
+   47  mkfs.ext4 /dev/sde5
+   48  mkdir -p /tmp/01 /tmp/02 /tmp/03 /tmp04 /tmp/05
+   49  ll /tmp
+   50  mkdir -p /mnt/02 /mnt/03 /mnt/04 /mnt/05 /mnt/06
+   51  mount /dev/sde1 /mnt/02
+   52  mount /dev/sde2 /mnt/03
+   53  mount /dev/sde3 /mnt/04
+   54* mount /dev/sde4 /mnt/06
+   55  mount /dev/sde5 /mnt/06
+   56  lsblk
+   57  cp -r /var/log/*log* /mnt/0{2,3,4,5,6}
+   58  lsblk
+   59  df -h
+   60  ls /mnt/04
+   61  cp -r /var/log/* /mnt/02
+   62  cp -r /var/log/* /mnt/03
+   63  cp -r /var/log/* /mnt/04
+   64  cp -r /var/log/* /mnt/05
+   65  cp -r /var/log/* /mnt/06
+   66  df -h
